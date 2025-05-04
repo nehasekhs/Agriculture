@@ -40,53 +40,58 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-md fixed w-screen z-50 p-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <Link to="/">
-          <img src="/logo/logo-removebg-preview.png" alt="Logo" className="h-10 w-auto" />
-        </Link>
+    <div className="max-w-7xl mx-auto flex justify-between items-center">
+      {/* Logo */}
+      <Link to="/">
+        <img src="/logo/logo-removebg-preview.png" alt="Logo" className="h-10 w-auto" />
+      </Link>
 
-        {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-8">
-          {menuItems.map((item) => (
+      {/* Desktop Menu */}
+      <div className="hidden md:flex items-center space-x-8">
+        {menuItems.map((item) => (
+          <div key={item.to} className="flex items-center">
             <Link
-              key={item.to}
               to={item.to}
               className="text-gray-800 text-lg font-semibold hover:text-green-600 transition duration-300"
             >
               {item.label}
             </Link>
-          ))}
 
           {/* Dropdown */}
-          <div className="relative" ref={dropdownRef}>
-            <button
-              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className="text-gray-800 text-lg font-semibold flex items-center hover:text-green-600 transition duration-300"
-            >
-              Our Solution <ChevronDown size={18} className="ml-1" />
-            </button>
-            <AnimatePresence>
-              {isDropdownOpen && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 5 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  className="absolute left-0  mt-5 w-56 bg-white border border-gray-200 shadow-lg rounded-md"
-                >
-                  {dropdownItems.map((item) => (
-                    <Link
-                      key={item.to}
-                      to={item.to}
-                      className="block px-3  py-3 text-gray-800 hover:text-green-600"
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                </motion.div>
+          
+         {/* Inject dropdown right after 'Our Story' */}
+         {item.label === "Our Story" && (
+                <div className="relative ml-4" ref={dropdownRef}>
+                  <button
+                    onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                    className="text-gray-800 text-lg font-semibold flex items-center hover:text-green-600 transition duration-300"
+                  >
+                    Our Solution <ChevronDown size={18} className="ml-1" />
+                  </button>
+                  <AnimatePresence>
+                    {isDropdownOpen && (
+                      <motion.div
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 5 }}
+                        exit={{ opacity: 0, y: 10 }}
+                        className="absolute left-0 mt-5 w-56 bg-white border border-gray-200 shadow-lg rounded-md"
+                      >
+                        {dropdownItems.map((item) => (
+                          <Link
+                            key={item.to}
+                            to={item.to}
+                            className="block px-3 py-3 text-gray-800 hover:text-green-600"
+                          >
+                            {item.label}
+                          </Link>
+                        ))}
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
               )}
-            </AnimatePresence>
-          </div>
+            </div>
+          ))}
         </div>
 
         {/* Mobile Menu Button */}
@@ -111,48 +116,64 @@ export default function Navbar() {
               <X size={24} />
             </button>
             <div className="mt-10 space-y-4">
-              {menuItems.map((item) => (
-                <Link
-                  key={item.to}
-                  to={item.to}
-                  className="block text-gray-800 text-lg font-semibold hover:text-green-600 transition duration-300"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.label}
-                </Link>
-              ))}
-              <div>
-                <button
-                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-                  className="flex items-center w-full text-gray-800 text-lg font-semibold hover:text-green-600"
-                >
-                  Our Solution <ChevronDown size={18} className="ml-1" />
-                </button>
-                <AnimatePresence>
-                  {isDropdownOpen && (
-                    <motion.div
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      className="pl-4 mt-5"
-                    >
-                      {dropdownItems.map((item) => (
-                        <Link
-                          key={item.to}
-                          to={item.to}
-                          className="block text-gray-800 text-md mt-3 hover:text-green-600 transition duration-300"
-                          onClick={() => {
-                            setIsDropdownOpen(false);
-                            setIsOpen(false);
-                          }}
+              {menuItems.map((item) => {
+                if (item.label === "Our Story") {
+                  return (
+                    <div key="our-story-mobile-dropdown">
+                      <Link
+                        to={item.to}
+                        className="block text-gray-800 text-lg font-semibold hover:text-green-600 transition  duration-300 mb-6"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        {item.label}
+                      </Link>
+                      <div>
+                        <button
+                          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                          className="flex items-center w-full text-gray-800 text-lg font-semibold hover:text-green-600"
                         >
-                          {item.label}
-                        </Link>
-                      ))}
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
+                          Our Solution <ChevronDown size={18} className="ml-1" />
+                        </button>
+                        <AnimatePresence>
+                          {isDropdownOpen && (
+                            <motion.div
+                              initial={{ opacity: 0, y: -10 }}
+                              animate={{ opacity: 1, y: 0 }}
+                              exit={{ opacity: 0, y: -10 }}
+                              className="pl-4 mt-5"
+                            >
+                              {dropdownItems.map((item) => (
+                                <Link
+                                  key={item.to}
+                                  to={item.to}
+                                  className="block text-gray-800 text-md mt-3 hover:text-green-600 transition duration-300"
+                                  onClick={() => {
+                                    setIsDropdownOpen(false);
+                                    setIsOpen(false);
+                                  }}
+                                >
+                                  {item.label}
+                                </Link>
+                              ))}
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </div>
+                    </div>
+                  );
+                } else {
+                  return (
+                    <Link
+                      key={item.to}
+                      to={item.to}
+                      className="block text-gray-800 text-lg font-semibold hover:text-green-600 transition duration-300"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  );
+                }
+              })}
             </div>
           </motion.div>
         )}
@@ -160,3 +181,4 @@ export default function Navbar() {
     </nav>
   );
 }
+
