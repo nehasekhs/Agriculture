@@ -270,7 +270,7 @@ export default function Home() {
             Are you actively farming or representing a farmer producer organization and want to enhance agricultural productivity?
           </p>
           <Link
-            to="/solution/form1"
+            to="/Supply-of-agri-produce-and-products"
             className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full justify-center"
           >
             Register Now <ArrowRight className="ml-2" size={20} />
@@ -297,7 +297,7 @@ export default function Home() {
             Do you operate a shop, restaurant, canteen, or represent a business?
           </p>
           <Link
-            to="/solution/form2"
+            to="/Large-volume-trading"
             className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full justify-center"
           >
             Register Now <ArrowRight className="ml-2" size={20} />
