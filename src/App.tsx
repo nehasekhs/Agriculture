@@ -9,11 +9,11 @@ import ScrollToTop from './components/ScrollToTop';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfUse from './pages/TermsCondition';
 import RefundPolicy from './pages/RefundPolicy';
-import CropzapGrower from './pages/Supply-of-fresh';
-import Cropzapmart from './pages/Largevolume';
+import CropzapGrower from './pages/Supply-of-agri-produce-and-products';
+import Cropzapmart from './pages/Large-volume-trading';
 import Blog from './pages/Blog';
 import ESG from './pages/Esg';
-import RegistrationForm from './pages/RegistrationForm';
+import RegistrationForm from './pages/agri-services-vertezy';
 import CropmartForm from './pages/cropmartform';
 
 
@@ -34,9 +34,9 @@ export default function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-use" element={<TermsOfUse />} />
             <Route path='/refund' element={<RefundPolicy />} />
-            <Route path='/solution/form1' element={<CropzapGrower/>}/>
-            <Route path='/solution/form2' element={<Cropzapmart/>}/>
-            <Route path='/registrationform' element={<RegistrationForm/>}/>
+            <Route path='/Supply-of-agri-produce-and-products' element={<CropzapGrower/>}/>
+            <Route path='/Large-volume-trading' element={<Cropzapmart/>}/>
+            <Route path='/agri-services-vertezy' element={<RegistrationForm/>}/>
             <Route path="/cropmartform" element={<CropmartForm/>}/>
             
           </Routes>

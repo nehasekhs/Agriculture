@@ -12,9 +12,9 @@ const menuItems = [
 ];
 
 const dropdownItems = [
-  { label: "Supply of Fresh Produce", to: "/solution/form1" },
-  { label: "Large Volume Trading", to: "/solution/form2" },
-  { label: "Agri Services", to: "/registrationform" },
+  { label: "Supply of Fresh Produce", to: "/Supply-of-agri-produce-and-products" },
+  { label: "Large Volume Trading", to: "/Large-volume-trading" },
+  { label: "Agri Services", to: "/agri-services-vertezy" },
 ];
 
 export default function Navbar() {

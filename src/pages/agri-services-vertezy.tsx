@@ -82,15 +82,21 @@ const RegistrationForm: React.FC = () => {
   return (
 <div className="flex flex-col items-center">
       {/* Background Image Section */}
-      <section className="relative w-full h-[70vh] mt-16">
+      <section className="relative w-full h-[80vh] mt-16">
         <img
-          src="/bg/getstart.png"
+          src="\bg\WhatsApp Image 2025-05-04 at 23.15.20_c4e2998c.jpg"
           alt="Agricultural Innovation"
           className="absolute inset-0 w-full h-full object-fill"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-black/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-black/60"></div>
         <div className="relative max-w-7xl mx-auto px-6 text-left text-white z-10">
-  <h1 className="text-3xl sm:text-5xl md:text-5xl font-bold mt-36">
+           {/* LOGO */}
+    <img
+      src="\public\bg\WhatsApp_Image_2025-05-04_at_23.13.05_b7167ff4-removebg-preview.png" // <- Replace with your actual logo path
+      alt="Logo"
+      className="w-72 mt-10 mb-[-40px] ml-[-70px]" 
+    />
+  <h1 className="text-3xl sm:text-5xl md:text-5xl font-bold justify-center ">
     Empowering Farmers Transforming Agriculture
   </h1><br />
   <p className="text-lg sm:text-xl md:text-3xl">
@@ -111,7 +117,7 @@ const RegistrationForm: React.FC = () => {
           className="lg:w-1/2 text-gray-800 mb-10 lg:mb-0"
         >
           <h2 className="text-5xl font-bold text-gray-700 mb-4 mt-10">About Cropzap</h2><br></br>
-          <p className="text-gray-600 mb-6 text-[20px]">
+          <p className="text-gray-600 text-[20px]">
             Cropzap’s Agri Services bring farmers and businesses closer to the right resources, insights, and market opportunities. By integrating technology with expert-backed support, we simplify decision-making, improve productivity, and ensure seamless access to essential agricultural solutions.
           </p>
           <ul className="space-y-9">

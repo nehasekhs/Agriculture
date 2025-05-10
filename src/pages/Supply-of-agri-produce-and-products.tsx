@@ -163,18 +163,6 @@ const CropzapGrower = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {[
               {
-                icon: "bi-graph-up-arrow",
-                title: "Market Price Updates",
-                description:
-                  "We Provide you the Latest updates on Market price for Produce",
-              },
-              {
-                icon: "bi-bar-chart-line",
-                title: "Weekly Demand Forecasting",
-                description:
-                  "We predict the demand for the produce accurately and reduce the post harvest losses",
-              },
-              {
                 icon: "bi-cart3",
                 title: "Best prices on seeds and pesticides",
                 description:
@@ -201,7 +189,7 @@ const CropzapGrower = () => {
             ].map((feature, index) => (
               <div
                 key={index}
-                className="icon-box p-4 bg-white shadow-md rounded-md text-center"
+                className="icon-box p-6 h-40 bg-white shadow-md rounded-md text-center"
               >
                 <i className={`text-green-500 text-3xl mb-4 ${feature.icon}`}></i>
                 <h4 className="font-bold mb-2">{feature.title}</h4>

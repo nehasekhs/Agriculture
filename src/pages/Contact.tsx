@@ -13,6 +13,7 @@ export default function Contact() {
     message: "",
     createdAt: new Date(),
   });
+
   const [modalOpen, setModalOpen] = useState(false);
   const [modalMessage, setModalMessage] = useState({ title: '', content: '' });
   const [btnLoader, setBtnLoader] = useState(false);
@@ -30,6 +31,7 @@ export default function Contact() {
     e.preventDefault();
     setBtnLoader(true);
     console.log(formData)
+    
     try {
       formData.createdAt = new Date();
       const response = await axios.post(import.meta.env.VITE_MONGO_DB_URL + 'contact', formData);

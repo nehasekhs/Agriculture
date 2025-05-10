@@ -92,9 +92,8 @@ export default function AboutPage() {
 
             <h3 className="text-3xl font-bold mt-6">Our Vision</h3>
             <p className="text-gray-600 text-lg mt-4 text-left pl-6">
-              To be a global leader in agritech, empowering farmers with
-              cutting-edge solutions for a sustainable food ecosystem where all
-              businesses and value chains prosper.
+            To build a resilient, transparent, and scalable agri-commerce network that guarantees fair pricing for
+            farmers and ensures quality produce for businesses, fostering sustainable agricultural growth.
             </p>
           </motion.div>
 
@@ -117,8 +116,9 @@ export default function AboutPage() {
 
             <h3 className="text-3xl font-bold mt-6">Our Mission</h3>
             <ul className="text-gray-600 text-lg mt-3 text-left pl-8 pr-4 list-disc marker:text-green-600">
-              <li>Transform agriculture through innovation: Boost productivity, minimize space, maximize business profitability.</li>
-              <li className="mt-2">Build a resilient value chain: Connect farmers directly to businesses, ensuring fair prices and access to high-quality produce.</li>
+             To empower farmers with the knowledge, digital tools, and market access needed to cultivate
+              high-quality crops while ensuring businesses receive fresh, traceable, and ethically sourced produce.
+
             </ul>
 
           </motion.div>
@@ -259,28 +259,27 @@ export default function AboutPage() {
               <ul className="space-y-4 text-gray-600 pl-5">
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Better Price:</span> Receive better price for produce.</span>
+                  <span><span className='font-bold text-green-700'>Fair Pricing & Market Access: </span> Eliminates unfair price fluctuations and middlemen exploitation</span>
                 </li>
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Access to Quality Inputs:</span> Reliable access to high-quality seeds and manure.</span>
+                  <span><span className='font-bold text-green-700'> Access to Quality Inputs:</span> Reliable access to high-quality seeds, fertilizers, and farm equipment.
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Expert Guidance:</span> Support to enhance yield and productivity.</span>
+                  <span><span className='font-bold text-green-700'>Expert Advisory & Data Insights: </span> AI-powered guidance to improve yield and productivity.</span>
                 </li>
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Data-Driven Decision Making:</span> Real-time insights to improve farming practices.</span>
+                  <span><span className='font-bold text-green-700'>Financial Inclusion: </span> Access to agri-financing, insurance, and digital payment solutions.
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Improved Market Access:</span> Direct connections with businesses.</span>
+                  <span><span className='font-bold text-green-700'> Reduced Post-Harvest Losses:</span> Efficient logistics and storage solutions to minimize wastage</span>
                 </li>
-                <li className="flex items-start">
-                  <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Increased Profitability:</span> Cost reduction and higher profit margins.</span>
-                </li>
+               
               </ul>
             </div>
 
@@ -290,28 +289,23 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-600 pl-5 flex flex-col flex-start justify-start items-start">
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Fresh Produce at Affordable Cost:</span> Access to high-quality produce at affordable cost.</span>
+                  <span><span className='font-bold text-green-700'>Affordable, High-Quality Produce:</span> Direct sourcing from trusted farmers ensures cost-effective
+procurement.
+</span>
                 </div>
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Ensured Quality:</span> Verified sourcing from trusted farmers.</span>
+                  <span><span className='font-bold text-green-700'>Timely & Reliable Deliveries: </span> Streamlined logistics enhance business efficiency.</span>
                 </div>
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Convenient
-                    and Timely Delivery:</span> Reliable logistics ensure produce arrives on time.</span>
+                  <span><span className='font-bold text-green-700'>Enhanced Transparency & Traceability: </span> Blockchain-powered verification of product origin and
+                  quality.</span>
                 </div>
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Transparency and Traceability:</span> Complete visibility into the supply chain for better decision making.</span>
-                </div>
-                <div className="flex items-start">
-                  <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Reduce Waste:</span> Efficient processes minimize waste and enhance sustainability.</span>
-                </div>
-                <div className="flex items-start">
-                  <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Cost Efficiency:</span> Affordable produce help business to reduces procurement costs.</span>
+                  <span><span className='font-bold text-green-700'> Reduced Waste & Cost Efficiency:</span> Better inventory management and optimized logistics
+                  minimize financial losses.</span>
                 </div>
               </div>
             </div>
