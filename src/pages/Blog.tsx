@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Blog = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);

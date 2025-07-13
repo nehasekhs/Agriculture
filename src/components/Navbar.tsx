@@ -5,16 +5,15 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const menuItems = [
   { label: "Home", to: "/" },
-  { label: "Our Story", to: "/our-story" },
-  { label: "Blog", to: "/blog" },
-  { label: "ESG", to: "/esg" },
+  { label: "About", to: "/our-story" },
+  { label: "Become a Seller", to: "/agri-services-vertezy" },
   { label: "Contact", to: "/contact" },
 ];
 
 const dropdownItems = [
   { label: "Supply of Fresh Produce", to: "/Supply-of-agri-produce-and-products" },
   { label: "Large Volume Trading", to: "/Large-volume-trading" },
-  { label: "Agri Services", to: "/agri-services-vertezy" },
+  
 ];
 
 export default function Navbar() {

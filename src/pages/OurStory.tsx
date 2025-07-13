@@ -38,7 +38,7 @@ export default function AboutPage() {
     <img src="/bg/ourstory.jpg" alt="Agricultural Innovation" className="w-full h-full object-fill" />
   </div>
   <div className="relative max-w-7xl mx-auto px-4 text-left text-white z-10">
-    <h1 className="text-6xl font-bold mt-24">Our Story</h1><br></br>
+    <h1 className="text-6xl font-bold mt-24">About Us</h1><br></br>
     <p className="text-3xl">The Roots of Agricultural Innovation.</p>
   </div>
 </section>
@@ -54,8 +54,14 @@ export default function AboutPage() {
                 from market data analytics to personalised business intelligence, ensuring our customers stay ahead of
                 market trends and make informed decisions.
               </p>
-              <p className="text-gray-600 text-[18px]">
+              <p className="text-gray-600 text-[18px] mb-6">
                 Join us on this journey to create a more connected and efficient agricultural ecosystem.
+              </p>
+              <p className="text-gray-600 text-[18px]">
+                In India, millions of farmers and FPOs struggle to access fair markets. Middlemen dominate the supply chain, cutting into producer profits and leaving consumers disconnected from the source of their food. Rural producers often lack the tools, reach, and branding support needed to thrive in today’s digital economy.
+                With Cropzap, we’re not just building a marketplace — we’re building a movement. 
+                A fairer, more transparent agri-commerce ecosystem where rural producers grow stronger, and conscious consumers shop with purpose.
+
               </p>
             </div>
             <div className="relative">
@@ -92,8 +98,8 @@ export default function AboutPage() {
 
             <h3 className="text-3xl font-bold mt-6">Our Vision</h3>
             <p className="text-gray-600 text-lg mt-4 text-left pl-6">
-            To build a resilient, transparent, and scalable agri-commerce network that guarantees fair pricing for
-            farmers and ensures quality produce for businesses, fostering sustainable agricultural growth.
+           Build an agri value chain that ensures fair prices and quality products for all the stakeholders in the ecosystem. 
+
             </p>
           </motion.div>
 
@@ -116,8 +122,13 @@ export default function AboutPage() {
 
             <h3 className="text-3xl font-bold mt-6">Our Mission</h3>
             <ul className="text-gray-600 text-lg mt-3 text-left pl-8 pr-4 list-disc marker:text-green-600">
-             To empower farmers with the knowledge, digital tools, and market access needed to cultivate
-              high-quality crops while ensuring businesses receive fresh, traceable, and ethically sourced produce.
+             <li>
+               Empower farmers and FPOs with Knowledge, inputs, advanced tools, and market. 
+
+             </li>
+             <li>
+              To create a sustainable agri value chain where farmers and FPOs receive ethical prices and businesses and consumers get quality products. 
+             </li>
 
             </ul>
 
@@ -255,58 +266,43 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* For Farmers */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-green-700">For Farmers</h3>
+              <h3 className="text-2xl font-bold mb-6 text-green-700">For Producers</h3>
               <ul className="space-y-4 text-gray-600 pl-5">
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Fair Pricing & Market Access: </span> Eliminates unfair price fluctuations and middlemen exploitation</span>
+                  <span><span className='font-bold text-green-700'>Better Price: </span> Receive a better price for products sold on our platform. </span>
                 </li>
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'> Access to Quality Inputs:</span> Reliable access to high-quality seeds, fertilizers, and farm equipment.
-                  </span>
+                  <span><span className='font-bold text-green-700'> Wider Market Access:</span> Sell the products to a wider market of customers.</span>
                 </li>
                 <li className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Expert Advisory & Data Insights: </span> AI-powered guidance to improve yield and productivity.</span>
+                  <span><span className='font-bold text-green-700'>Improved operations: </span> Real-time data demand forecasting helps FPOs to make better decisions on production plans.</span>
                 </li>
-                <li className="flex items-start">
-                  <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Financial Inclusion: </span> Access to agri-financing, insurance, and digital payment solutions.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'> Reduced Post-Harvest Losses:</span> Efficient logistics and storage solutions to minimize wastage</span>
-                </li>
+              
                
               </ul>
             </div>
 
             {/* For Businesses */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-green-700">For Businesses</h3>
+              <h3 className="text-2xl font-bold mb-6 text-green-700">For Consumers</h3>
               <div className="space-y-4 text-gray-600 pl-5 flex flex-col flex-start justify-start items-start">
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Affordable, High-Quality Produce:</span> Direct sourcing from trusted farmers ensures cost-effective
-procurement.
+                  <span><span className='font-bold text-green-700'>Quality produce at Affordable cost:</span>  Access to quality products from FPOs at affordable cost.
 </span>
                 </div>
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Timely & Reliable Deliveries: </span> Streamlined logistics enhance business efficiency.</span>
+                  <span><span className='font-bold text-green-700'>Convenient Delivery: </span> Reliable delivery systems with tracking ensure that the produce reaches the doorstep of the consumer on time.</span>
                 </div>
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Enhanced Transparency & Traceability: </span> Blockchain-powered verification of product origin and
-                  quality.</span>
+                  <span><span className='font-bold text-green-700'>Ensured Quality: </span>  Verified sourcing from trusted FPOs</span>
                 </div>
-                <div className="flex items-start">
-                  <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'> Reduced Waste & Cost Efficiency:</span> Better inventory management and optimized logistics
-                  minimize financial losses.</span>
-                </div>
+               
               </div>
             </div>
           </div>
