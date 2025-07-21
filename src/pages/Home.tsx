@@ -102,7 +102,7 @@ export default function Home() {
     <div className="pt-16 overflow-hidden">
       {/* Hero Section */}
       <section className="relative h-[91.5vh] bg-cover bg-center" style={{
-        // backgroundImage: 'url("https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2070")'
+       
         // backgroundImage: 'url("/public/bg/bg.jpg")'
       }}>
         <div
@@ -151,20 +151,29 @@ export default function Home() {
 
             </p>
             <div className="flex flex-col text-white font-bold text-lg">
-            <img src="\logo\arrow-down-on-black-background-vector-22564743-removebg-preview.png" alt="Logo" className="w-20 h-20" />
+            {/* <img src="\logo\arrow-down-on-black-background-vector-22564743-removebg-preview.png" alt="Logo" className="w-20 h-20" /> */}
                 
               </div>
 
-            <Link to="/our-story" className="inline-flex items-center text-[20px] border-2 border-white text-white px-6 py-3 rounded-full hover:scale-110 hover:border-green-300  hover:text-green-300 transition duration-300">
-              About
-            </Link>
-            <Link to="/our-story" className="inline-flex items-center text-[20px] border-2 border-white text-white px-6 py-3 rounded-full hover:scale-110 hover:border-green-300  hover:text-green-300 transition duration-300">
-              Shop
-            </Link>
+            <div className="flex space-x-6 mt-8">
+  <Link
+    to="/our-story"
+    className="inline-flex items-center text-[20px] border-2 border-white text-white px-6 py-3 rounded-full hover:scale-110 hover:border-green-300 hover:text-green-300 transition duration-300"
+  >
+    About
+  </Link>
+  <Link
+    to="/our-story"
+    className="inline-flex items-center text-[20px] border-2 border-white text-white px-6 py-3 rounded-full hover:scale-110 hover:border-green-300 hover:text-green-300 transition duration-300"
+  >
+    Shop
+  </Link>
+</div>
+
           </div>
         </div>
       </section>
-
+ 
       {/* Introduction Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-10">
@@ -202,7 +211,7 @@ export default function Home() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-green-600 text-white">
+      {/* <section className="py-16 bg-green-600 text-white">
         <div className="max-w-7xl mx-auto px-10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
@@ -229,7 +238,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Values Section */}
       
@@ -237,71 +246,7 @@ export default function Home() {
 
 
       {/* Solutions Section */}
-      <section className="py-20 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-10">
-    <h2 className="text-3xl font-bold text-center mb-4">Our Solutions</h2>
-    <p className="text-center text-[20px] mb-12 text-gray-600 max-w-3xl mx-auto">
-      We designed solutions that meet the demand for farmers in fulfillment of trade and knowledge,
-      building a trusted and sustainable marketplace for agri trade.
-    </p>
-
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {/* Grower Section */}
-      <div className="relative overflow-hidden hover:scale-105 transition duration-300 group">
-        {/* Image */}
-        <img
-          ref={(el) => el && imageRefs.current.push(el)}
-          src="/solutions/grower.jpg"
-          alt="Farmer"
-          className="w-full h-[400px] object-cover transition duration-300 group-hover:opacity-60 opacity-100"
-        />
-        {/* Optional Content Overlay */}
-        <div className="absolute inset-0 group-hover:bg-black/50 bg-transparent transition duration-300 z-10"></div>
-
-        {/* Overlay Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-6 z-20">
-          <h3 className="text-2xl font-semibold text-white mb-4">Cropzap Grower</h3>
-          <p className="text-white mb-6 text-[17px]">
-            Are you actively farming or representing a farmer producer organization and want to enhance agricultural productivity?
-          </p>
-          <Link
-            to="/Supply-of-agri-produce-and-products"
-            className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full justify-center"
-          >
-            Register Now <ArrowRight className="ml-2" size={20} />
-          </Link>
-        </div>
-      </div>
-                
-      {/* Mart Section */}
-      <div className="relative overflow-hidden hover:scale-105 transition duration-300 group">
-        {/* Image */}
-        <img
-          ref={(el) => el && imageRefs.current.push(el)}
-          src="/solutions/tradecenter.jpg"
-          alt="Business"
-          className="w-full h-[400px] object-cover transition duration-300 group-hover:opacity-60 opacity-100"
-        />
-        <div className="absolute inset-0 group-hover:bg-black/50 bg-transparent transition duration-300 z-10"></div>
-        
-        
-        {/* Overlay Content */}
-        <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-6 z-20">
-          <h3 className="text-2xl font-semibold text-white mb-4">Cropzap Mart</h3>
-          <p className="text-white text-[17px] ">
-            Do you operate a shop, restaurant, canteen, or represent a business?
-          </p>
-          <Link
-            to="/Large-volume-trading"
-            className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full justify-center"
-          >
-            Register Now <ArrowRight className="ml-2" size={20} />
-          </Link>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+      
 </div>
   );
 }
