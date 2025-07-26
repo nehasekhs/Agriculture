@@ -11,6 +11,7 @@ const RegistrationForm: React.FC = () => {
     phone: "",
     option: "",
     doorNo: "",
+    addressLine2: "",
     district: "",
     state: "",
     pincode: "",
@@ -56,6 +57,7 @@ const RegistrationForm: React.FC = () => {
           phone: "",
           option: "",
           doorNo: "",
+          addressLine2: "",
           district: "",
           state: "",
           pincode: "",
@@ -156,7 +158,7 @@ const RegistrationForm: React.FC = () => {
             </select>
 
             {/* Address Fields */}
-            <input
+           <input
               type="text"
               name="doorNo"
               value={formData.doorNo}
@@ -165,6 +167,16 @@ const RegistrationForm: React.FC = () => {
               className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-500 focus:border-green-500"
               required
             />
+
+              <input
+                type="text"
+                name="addressLine2"
+                value={(formData as any).addressLine2 || ""}
+                onChange={handleChange}
+                placeholder="Address Line 2"
+                className="w-full h-[100px] px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-green-500 focus:border-green-500"
+              />
+
             <input
               type="text"
               name="district"
