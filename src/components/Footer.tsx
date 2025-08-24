@@ -10,16 +10,16 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-4">Hivictus</h3>
             <div className="space-y-3">
               <p className="flex items-center gap-2">
-                 6/1, Velan nagar, chennimalai - arachalur road, chennimalai (po), 
+                 6/1, Velan nagar, chennimalai - arachalur road, chennimalai (po), <br></br>
                 Erode (dt) - 638051, 
                 Tamilnadu India. 
 
               </p>
 
               <p className="flex items-center gap-2">
-                <a href="tel:+919952492456" className='flex gap-1 items-center'>
+                <a href="tel:+918807192932" className='flex gap-1 items-center'>
                   <span className='bg-white rounded-full p-1 shadow-lg'><Phone size={35} className=' text-black p-[2px] w-5 h-5' /></span>
-                  +91 9952492456</a>
+                  +91 8807192932</a>
               </p>
             </div>
           </div>
@@ -27,9 +27,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><Link to="/careers" className="hover:text-green-300">Careers</Link></li>
+              {/* <li><Link to="/careers" className="hover:text-green-300">Careers</Link></li> */}
               <li><Link to="/contact" className="hover:text-green-300">Contact us</Link></li>
-              <li><Link to="/locations" className="hover:text-green-300">Serviceable Locations</Link></li>
+              {/* <li><Link to="/locations" className="hover:text-green-300">Serviceable Locations</Link></li> */}
               {/* <li><Link to="/agri-tour" className="hover:text-green-300">Agri Tour</Link></li> */}
             </ul>
           </div>
@@ -39,7 +39,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><Link to="/privacy-policy" className="hover:text-green-300">Privacy Policy</Link></li>
               <li><Link to="/terms-of-use" className="hover:text-green-300">Terms Of Use</Link></li>
-              <li><Link to="/refund" className="hover:text-green-300">Refund Policy</Link></li>
+             
             </ul>
           </div>
 

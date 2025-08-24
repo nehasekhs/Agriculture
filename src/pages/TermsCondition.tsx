@@ -8,7 +8,7 @@ export default function TermsOfUse() {
             Terms of Use
           </h1>
           <p className="text-lg text-green-700 leading-relaxed mb-8">
-            These Terms of Use govern your access to and use of the Cropzap Services platform ("Platform"). By accessing or using the Platform, you agree to comply with these terms.
+            These Terms of Use govern your access to and use of the Hivictus Services platform ("Platform"). By accessing or using the Platform, you agree to comply with these terms.
           </p>
   
           <section className="mb-6">
@@ -38,7 +38,7 @@ export default function TermsOfUse() {
               3. Intellectual Property
             </h2>
             <p className="text-green-700">
-              All content on the Platform, including trademarks, logos, and software, is owned by Cropzap. Unauthorized use is prohibited.
+              All content on the Platform, including trademarks, logos, and software, is owned by Hivictus. Unauthorized use is prohibited.
             </p>
           </section>
   
@@ -47,7 +47,7 @@ export default function TermsOfUse() {
               4. Limitation of Liability
             </h2>
             <p className="text-green-700">
-              Cropzap is not liable for:
+              Hivictus is not liable for:
             </p>
             <ul className="list-disc list-inside text-green-700">
               <li>Losses due to user error, technical disruptions, or unauthorized access.</li>
@@ -60,7 +60,7 @@ export default function TermsOfUse() {
               5. Termination
             </h2>
             <p className="text-green-700">
-              Cropzap reserves the right to terminate your account for violations of these terms or misuse of the Platform.
+              Hivictus reserves the right to terminate your account for violations of these terms or misuse of the Platform.
             </p>
           </section>
   
@@ -69,7 +69,7 @@ export default function TermsOfUse() {
               6. Changes to Terms
             </h2>
             <p className="text-green-700">
-              Cropzap may modify these terms at its discretion. Continued use of the Platform constitutes acceptance of any updates.
+              Hivictus may modify these terms at its discretion. Continued use of the Platform constitutes acceptance of any updates.
             </p>
           </section>
         </div>

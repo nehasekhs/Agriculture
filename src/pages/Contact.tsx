@@ -123,8 +123,8 @@ const itemVariants = {
                   <Phone className="text-green-600" /> Call Us
                 </h3>
                 <p className="text-gray-600">
-                  <a target='_blank' rel="noopener noreferrer" href="tel:+919952492456">+91 9952492456</a><br />
-                  <a target='_blank' rel="noopener noreferrer" href="tel:+916385498290">+91 6385498290</a>
+                  <a target='_blank' rel="noopener noreferrer" href="tel:+919952492456">+91 8807192932</a><br />
+                  <a target='_blank' rel="noopener noreferrer" href="tel:+9169952492456">+91 69952492456</a>
                 </p>
               </motion.div>
 
@@ -132,8 +132,8 @@ const itemVariants = {
                 <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
                   <Mail className="text-green-600" /> Email Us
                 </h3>
-                <a href="mailto:info@cropzap.com" target="_blank" rel="noopener noreferrer" className="text-gray-600">
-                  info@cropzap.com
+                <a href="mailto:info@hivictus.com" target="_blank" rel="noopener noreferrer" className="text-gray-600">
+                  info@hivictus.com
                 </a>
               </motion.div>
 

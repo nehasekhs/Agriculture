@@ -96,10 +96,10 @@ const RegistrationForm: React.FC = () => {
 
         <div className="p-8">
           <h2 className="text-3xl font-bold text-center text-green-700 mb-2">
-            Join with Zoyokart
+            Join with Hivictus
           </h2>
           <p className="text-center text-gray-600 mb-6">
-            Become a Zoyokart seller and sell your products to a wider audience.
+            Become a Hivictus seller and sell your products to a wider audience.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-4">

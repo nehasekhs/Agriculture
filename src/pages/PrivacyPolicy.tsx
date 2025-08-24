@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-lg text-green-700 leading-relaxed mb-8">
-            At <strong>Hivictus Services</strong> (<strong>"Hivictus"</strong>), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our services.
+            At <strong>Hivictus Private Limited</strong> (<strong>"Hivictus"</strong>), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our services.
           </p>
   
           <section className="mb-6">
