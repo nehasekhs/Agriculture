@@ -14,7 +14,7 @@ const Corevalues = () => {
       <div className="py-10 px-4 md:px-8 mb-28 w-full">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white">
-          Why Zoyokart Section
+          Why Hivictus Section
         </h2>
 
         {/* Flex Container for Text and Cards */}
@@ -23,7 +23,7 @@ const Corevalues = () => {
           {/* Left Paragraph */}
           <div className="lg:w-1/2 text-left mt-10">
             <p className=" text-white mt-2 max-w-2xl mx-auto lg:mx-20 font-semibold text-[20px]">
-              Zoyokart is a direct-to-consumer agri-commerce platform that bridges India’s rural producers with modern, conscious buyers. 
+              Hivictus is a direct-to-consumer agri-commerce platform that bridges India’s rural producers with modern, conscious buyers. 
               We empower farmers, FPOs, women-led enterprises, and small producers by giving them the market access they deserve — 
               with end-to-end support in branding, digital sales, logistics, and customer experience. By removing middlemen and inefficiencies, 
               we help rural sellers grow sustainable businesses while staying focused on what they do best: producing quality, authentic goods.
@@ -92,7 +92,7 @@ const features = [
     imageUrl: "/about/about5.jpg",
     icon: Leaf,
     title: " Traceable & Authentic Products",
-    description: "Every product on Zoyokart comes directly from verified rural producers — with transparent sourcing and clean labeling.",
+    description: "Every product on Hivictus comes directly from verified rural producers — with transparent sourcing and clean labeling.",
     backgroundColor: "dark",
   },
    {

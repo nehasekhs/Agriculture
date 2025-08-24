@@ -15,6 +15,7 @@ import Blog from './pages/Blog';
 import ESG from './pages/Esg';
 import RegistrationForm from './pages/agri-services-vertezy';
 import CropmartForm from './pages/cropmartform';
+import Shop from './pages/Shop';
 
 
 export default function App() {
@@ -38,6 +39,7 @@ export default function App() {
             <Route path='/Large-volume-trading' element={<Cropzapmart/>}/>
             <Route path='/agri-services-vertezy' element={<RegistrationForm/>}/>
             <Route path="/cropmartform" element={<CropmartForm/>}/>
+            <Route path="/shop" element={<Shop/>}/>
             
           </Routes>
         </main>

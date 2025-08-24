@@ -111,9 +111,10 @@ const itemVariants = {
                   <MapPin className="text-green-600" /> Address
                 </h3>
                 <p className="text-gray-600">
-                  132 B, Roja Nagar, Kattur road<br />
-                  Near Sudhan Yarns, Behind JK tech Systems<br />
-                  Chennimalai, Erode - 638051
+                 6/1, Velan nagar, chennimalai -<br/>
+                  arachalur road, chennimalai (po), <br />
+                  Erode (dt) - 638051, 
+                  Tamilnadu India. 
                 </p>
               </motion.div>
 

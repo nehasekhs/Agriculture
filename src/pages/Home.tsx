@@ -143,10 +143,10 @@ export default function Home() {
             </motion.div>
           </div> */}
           <div className="flex  items-center text-center flex-col gap-5">
-            <div className="logo">
+            {/* <div className="logo">
               <img src="/logo/logo_bg.png" alt="Logo" className="w-20 h-20" />
-            </div>
-            <h1 className='uppercase text-white font-bold text-4xl'>Cropzap</h1>
+            </div> */}
+            <h1 className='uppercase text-white font-bold text-4xl'>Hivictus</h1>
             <p className='text-white font-medium text-3xl'>Transforming Agriculture through innovative and data driven solutions.
 
             </p>
@@ -163,7 +163,7 @@ export default function Home() {
     About
   </Link>
   <Link
-    to="/our-story"
+    to="/shop"
     className="inline-flex items-center text-[20px] border-2 border-white text-white px-6 py-3 rounded-full hover:scale-110 hover:border-green-300 hover:text-green-300 transition duration-300"
   >
     Shop
@@ -185,9 +185,9 @@ export default function Home() {
               viewport={{ once: false, }}
               transition={{ duration: 0.8, delay: 0.1 }}
             >
-              <h2 className="text-3xl font-bold mb-6">Welcome to Cropzap</h2>
+              <h2 className="text-3xl font-bold mb-6">Welcome to Hivictus</h2>
               <p className="text-gray-600 mb-6 text-[18px]">
-               At Cropzap, we’re reimagining market access for India’s farmers and FPOs by creating a direct-to-consumer platform that eliminates middlemen and puts rural producers in control of their sales. Our tech-enabled marketplace connects farmers and FPOs with consumers. Cropzap ensures that authentic, farm-sourced staples and goods reach households efficiently, affordably,
+               At Hivictus, we’re reimagining market access for India’s farmers and FPOs by creating a direct-to-consumer platform that eliminates middlemen and puts rural producers in control of their sales. Our tech-enabled marketplace connects farmers and FPOs with consumers. Hivictus ensures that authentic, farm-sourced staples and goods reach households efficiently, affordably,
                 and transparently  building a fair, sustainable agri-commerce ecosystem from soil to shelf.
               </p>
             </motion.div>

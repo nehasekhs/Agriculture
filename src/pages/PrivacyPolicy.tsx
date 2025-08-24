@@ -9,7 +9,7 @@ export default function PrivacyPolicy() {
             Privacy Policy
           </h1>
           <p className="text-lg text-green-700 leading-relaxed mb-8">
-            At <strong>Cropzap Services</strong> (<strong>"Cropzap"</strong>), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our services.
+            At <strong>Hivictus Services</strong> (<strong>"Hivictus"</strong>), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your data when you use our services.
           </p>
   
           <section className="mb-6">
@@ -65,7 +65,7 @@ export default function PrivacyPolicy() {
               4. Security Measures
             </h2>
             <p className="text-green-700">
-              We use industry-standard security measures to protect your data. However, no method of transmission over the Internet is 100% secure. By using Cropzap, you acknowledge the inherent risks.
+              We use industry-standard security measures to protect your data. However, no method of transmission over the Internet is 100% secure. By using Hivictus, you acknowledge the inherent risks.
             </p>
           </section>
   
@@ -75,8 +75,8 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="text-green-700">
               You can access, update, or delete your personal information by contacting us at{' '}
-              <a href="mailto:cropzapservices@gmail.com" className="text-green-900 font-medium underline">
-                cropzapservices@gmail.com
+              <a href="mailto:hivictusservices@gmail.com" className="text-green-900 font-medium underline">
+                hivictusservices@gmail.com
               </a>.
             </p>
           </section>

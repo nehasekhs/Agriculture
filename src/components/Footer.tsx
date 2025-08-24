@@ -7,12 +7,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div >
-            <h3 className="text-2xl font-bold mb-4">CropZap</h3>
+            <h3 className="text-2xl font-bold mb-4">Hivictus</h3>
             <div className="space-y-3">
               <p className="flex items-center gap-2">
-                132 B, Roja Nagar, Kattur road
-                Near Sudhan Yarns, Behind JK tech Systems
-                Chennimalai, Erode - 638051
+                 6/1, Velan nagar, chennimalai - arachalur road, chennimalai (po), 
+                Erode (dt) - 638051, 
+                Tamilnadu India. 
+
               </p>
 
               <p className="flex items-center gap-2">
@@ -98,7 +99,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-green-800 text-center">
-          <p>© 2024 All Rights Reserved by cropzap</p>
+          <p>© 2024 All Rights Reserved by Hivictus</p>
         </div>
       </div>
     </footer>

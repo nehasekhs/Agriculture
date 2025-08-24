@@ -50,7 +50,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Combining technology with expert insights</h2>
               <p className="text-gray-600  text-[18px] mb-6">
-                At Cropzap, we believe in the power of data and collaboration. Our platform offers a suite of services,
+                At Hivictus, we believe in the power of data and collaboration. Our platform offers a suite of services,
                 from market data analytics to personalised business intelligence, ensuring our customers stay ahead of
                 market trends and make informed decisions.
               </p>
@@ -59,7 +59,7 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-600 text-[18px]">
                 In India, millions of farmers and FPOs struggle to access fair markets. Middlemen dominate the supply chain, cutting into producer profits and leaving consumers disconnected from the source of their food. Rural producers often lack the tools, reach, and branding support needed to thrive in today’s digital economy.
-                With Cropzap, we’re not just building a marketplace — we’re building a movement. 
+                With Hivictus, we’re not just building a marketplace — we’re building a movement. 
                 A fairer, more transparent agri-commerce ecosystem where rural producers grow stronger, and conscious consumers shop with purpose.
 
               </p>
@@ -150,7 +150,7 @@ export default function AboutPage() {
             >
               <h2 className="text-3xl font-bold mb-6 text-green-700">Founder's Message</h2>
               <p className="text-gray-600 mb-4 text-justify text-[18px]">
-                I'm Dharunkumar, the Founder and CEO of Cropzap Agri Networks. Our mission is rooted in the belief that technology and data-driven decisions are essential to transforming agriculture. I started this venture with a vision to empower farmers and revolutionize agricultural practices.
+                I'm Dharunkumar, the Founder and CEO of Hivictus Agri Networks. Our mission is rooted in the belief that technology and data-driven decisions are essential to transforming agriculture. I started this venture with a vision to empower farmers and revolutionize agricultural practices.
               </p>
               <p className="text-gray-600 text-justify text-[18px]">
                 Agriculture is not just the backbone of India's economy but the pathway to realizing the quote by Honorable Prime Minister Narendra Modi, to make the country a $5 trillion economy. With the integration of agricultural technology and innovative commodity exchange models, we aim to secure India's food future while fostering sustainability and economic growth.
@@ -291,7 +291,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-gray-600 pl-5 flex flex-col flex-start justify-start items-start">
                 <div className="flex items-start">
                   <Asterisk size={25} className=" text-green-700 mr-4" />
-                  <span><span className='font-bold text-green-700'>Quality produce at Affordable cost:</span>  Access to quality products from FPOs at affordable cost.
+                  <span><span className='font-bold text-green-700'>Quality produce :</span>  Access to quality products from FPOs at affordable cost.
 </span>
                 </div>
                 <div className="flex items-start">
@@ -314,7 +314,7 @@ export default function AboutPage() {
       {/* Cropzap Code */}
       <section className="py-20 sm:px-10 bg-green-50">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">The Cropzap CODE</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">The Hivictus CODE</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
               <h3 className="font-bold text-xl mb-4 text-green-700">Collaboration</h3>
@@ -342,7 +342,7 @@ export default function AboutPage() {
       The <span className="underline decoration-green-500">Highlights</span>
     </h2>
     <p className="text-center text-lg text-gray-600 mb-12">
-      Join <span className="font-semibold text-green-600">Cropzap</span>  today and experience the future of agriculture, where data-driven decisions lead to unparalleled success.
+      Join <span className="font-semibold text-green-600">Hivictus</span>  today and experience the future of agriculture, where data-driven decisions lead to unparalleled success.
     </p>
 
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
