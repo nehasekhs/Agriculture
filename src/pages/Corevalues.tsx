@@ -14,7 +14,7 @@ const Corevalues = () => {
       <div className="py-10 px-4 md:px-8 mb-28 w-full">
         {/* Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white">
-          Why Hivictus Section
+          Why Hivictus 
         </h2>
 
         {/* Flex Container for Text and Cards */}
