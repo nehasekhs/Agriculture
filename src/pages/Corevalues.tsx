@@ -23,10 +23,8 @@ const Corevalues = () => {
           {/* Left Paragraph */}
           <div className="lg:w-1/2 text-left mt-10">
             <p className=" text-white mt-2 max-w-2xl mx-auto lg:mx-20 font-semibold text-[20px]">
-              Hivictus is a direct-to-consumer agri-commerce platform that bridges India’s rural producers with modern, conscious buyers. 
-              We empower farmers, FPOs, women-led enterprises, and small producers by giving them the market access they deserve — 
-              with end-to-end support in branding, digital sales, logistics, and customer experience. By removing middlemen and inefficiencies, 
-              we help rural sellers grow sustainable businesses while staying focused on what they do best: producing quality, authentic goods.
+             We empower Farmers, FPOs, and Women SMEs by providing direct market access and fair pricing through a transparent, technology-driven platform. By eliminating middlemen in the agricultural supply chain, we ensure producers retain greater value for their products. With blockchain-based traceability and data-driven insights,
+              Hivictus not only connects producers with consumers but also builds trust, efficiency, and sustainability in agricultural commerce.
             </p>
           </div>
 
@@ -78,28 +76,28 @@ const features = [
     imageUrl: "/about/about4.avif",
     icon: Shield,
     title: " Direct Market Access",
-    description: "Sell directly to urban consumers under a unified, trusted brand — no middlemen, no unfair pricing.",
+    description: "Eliminates middlemen, enabling sellers to earn better margins and buyers to access fresh, authentic products at fair prices.",
     backgroundColor: "dark",
   },
   {
     imageUrl: "/about/about1.jpg",
     icon: TrendingUp,
     title: " Branding & Fulfillment Support",
-    description: "We handle everything from packaging and online sales to logistics and customer care — so you can focus on production.",
+    description: "Every product on Hivictus comes directly from verified rural producers with transparent sourcing and clean labeling.",
     backgroundColor: "light",
   },
   {
     imageUrl: "/about/about5.jpg",
     icon: Leaf,
     title: " Traceable & Authentic Products",
-    description: "Every product on Hivictus comes directly from verified rural producers — with transparent sourcing and clean labeling.",
+    description: "Fair, competitive, and visible pricing for both producers and buyers, ensuring trust.",
     backgroundColor: "dark",
   },
    {
     imageUrl: "/about/about6.jpg",
     icon: Truck,
     title: "Farm to Home Convenience",
-    description: "Get fresh staples and handcrafted goods delivered to your doorstep — with real-time tracking and affordable pricing.",
+    description: "Safe digital payments and trackable order fulfillment, creating confidence for both producers and consumers.",
     backgroundColor: "light",
   },
 ];

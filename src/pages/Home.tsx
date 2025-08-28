@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { useEffect, useRef, useState } from 'react';
 import Corevalues from './Corevalues';
+import Cart from './Cart';
 
 
 function StatCounter({ value, isP, isH }: { value: number; isP: boolean; isH: boolean }) {
@@ -147,7 +148,7 @@ export default function Home() {
               <img src="/logo/logo_bg.png" alt="Logo" className="w-20 h-20" />
             </div> */}
             <h1 className='uppercase text-white font-bold text-4xl'>Hivictus</h1>
-            <p className='text-white font-medium text-3xl'>Transforming Agriculture through innovative and data driven solutions.
+            <p className='text-white font-medium text-3xl'>Transforming Agriculture through innovative and data driven solutions
 
             </p>
             <div className="flex flex-col text-white font-bold text-lg">
@@ -187,8 +188,11 @@ export default function Home() {
             >
               <h2 className="text-3xl font-bold mb-6">Welcome to Hivictus</h2>
               <p className="text-gray-600 mb-6 text-[18px]">
-               At Hivictus, we’re reimagining market access for India’s farmers and FPOs by creating a direct-to-consumer platform that eliminates middlemen and puts rural producers in control of their sales. Our tech-enabled marketplace connects farmers and FPOs with consumers. Hivictus ensures that authentic, farm-sourced staples and goods reach households efficiently, affordably,
-                and transparently  building a fair, sustainable agri-commerce ecosystem from soil to shelf.
+              Hivictus is a marketplace platform built to empower Farmers, FPOs, and Women SMEs by giving them direct access
+               to markets, ensuring better prices for their products, and eliminating middlemen in the agricultural supply chain.
+                We focus on creating transparent, fair, and sustainable opportunities that uplift rural producers, drive economic
+                 independence, and build a stronger connection between producers and consumers
+
               </p>
             </motion.div>
 
@@ -241,7 +245,7 @@ export default function Home() {
       </section> */}
 
       {/* Values Section */}
-      
+      <Cart/>
    <Corevalues/>   
 
 

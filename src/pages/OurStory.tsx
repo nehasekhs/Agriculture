@@ -50,19 +50,16 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold mb-6">Combining technology with expert insights</h2>
               <p className="text-gray-600  text-[18px] mb-6">
-                At Hivictus, we believe in the power of data and collaboration. Our platform offers a suite of services,
-                from market data analytics to personalised business intelligence, ensuring our customers stay ahead of
-                market trends and make informed decisions.
-              </p>
+               Hivictus was founded with a vision to transform the way agricultural and rural products reach the market. We recognized how farmers, FPOs, and women-led small businesses often face challenges such as limited access, unfair pricing, and exploitation by middlemen. To bridge this gap, we set out to build a platform that ensures transparency, fairness, and empowerment for those at the heart of our food and rural economy.</p>
+<p className="text-gray-600  text-[18px] mb-6">At Hivictus, we believe in the power of data and collaboration. Our technology-driven platform provides services ranging from market data analytics to personalized business intelligence, helping producers and buyers alike stay ahead of trends and make informed decisions. By offering direct market access, branding support, and traceability solutions, we connect farmers, FPOs, and women SMEs with consumers in a fair and efficient manner, removing barriers and fostering trust.
+</p><p className="text-gray-600  text-[18px] mb-6">We aim to deliver more beyond commerce. By creating fair income opportunities, we strengthen rural communities, promote women’s entrepreneurship, and drive sustainable development in agriculture. Our mission is to build more than just a marketplace—we are shaping an ecosystem where rural voices are heard, valued, and uplifted, paving the way for inclusive growth and a resilient agricultural future.
+
+</p>
+              
               <p className="text-gray-600 text-[18px] mb-6">
                 Join us on this journey to create a more connected and efficient agricultural ecosystem.
               </p>
-              <p className="text-gray-600 text-[18px]">
-                In India, millions of farmers and FPOs struggle to access fair markets. Middlemen dominate the supply chain, cutting into producer profits and leaving consumers disconnected from the source of their food. Rural producers often lack the tools, reach, and branding support needed to thrive in today’s digital economy.
-                With Hivictus, we’re not just building a marketplace — we’re building a movement. 
-                A fairer, more transparent agri-commerce ecosystem where rural producers grow stronger, and conscious consumers shop with purpose.
-
-              </p>
+              
             </div>
             <div className="relative">
               <img
@@ -314,23 +311,23 @@ export default function AboutPage() {
       {/* Cropzap Code */}
       <section className="py-20 sm:px-10 bg-green-50">
         <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">The Hivictus CODE</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">The Hivictus PATH</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="font-bold text-xl mb-4 text-green-700">Collaboration</h3>
-              <p className="text-gray-600">Building strong partnerships with farmers, businesses, and stakeholders</p>
+              <h3 className="font-bold text-xl mb-4 text-green-700">Purpose</h3>
+              <p className="text-gray-600">We empower farmers, FPOs, and SMEs by creating a transparent, inclusive marketplace that delivers shared growth and opportunities.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="font-bold text-xl mb-4 text-green-700">Optimization</h3>
-              <p className="text-gray-600">Making every aspect of the supply chain more efficient</p>
+              <h3 className="font-bold text-xl mb-4 text-green-700">Action</h3>
+              <p className="text-gray-600"> We turn vision into reality with speed, innovation, and accountability, enabling progress through digital tools, branding, and market access.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="font-bold text-xl mb-4 text-green-700">Development</h3>
-              <p className="text-gray-600">Committed to continuous growth and improvement</p>
+              <h3 className="font-bold text-xl mb-4 text-green-700">Trust</h3>
+              <p className="text-gray-600"> We build lasting relationships through fairness, transparency, and reliability, ensuring every stakeholder can depend on us.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md text-center">
-              <h3 className="font-bold text-xl mb-4 text-green-700">Empowerment</h3>
-              <p className="text-gray-600">Providing tools, data, and support for informed decisions</p>
+              <h3 className="font-bold text-xl mb-4 text-green-700">Honour</h3>
+              <p className="text-gray-600"> We operate with integrity and respect, honouring the contributions of farmers, entrepreneurs, and communities while creating value that uplifts all</p>
             </div>
           </div>
         </div>
@@ -406,20 +403,7 @@ export default function AboutPage() {
         </p>
       </motion.div>
 
-      {/* Risk Management */}
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 1.0 }}
-        viewport={{ once: true }}
-        className="p-6 rounded-lg border-2  hover:border-teal-500 hover:shadow-xl transition duration-300"
-      >
-        <CloudSun className="text-green-600 mb-4" size={40} />
-        <h3 className="text-xl font-semibold mb-4">Risk Management</h3>
-        <p className="text-gray-600">
-          Stay ahead with weather analysis, pest forecasting, and market risk assessments to mitigate risks effectively.
-        </p>
-      </motion.div>
+      
 
       {/* Dedicated Support */}
       <motion.div
