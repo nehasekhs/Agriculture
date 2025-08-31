@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const menuItems = [
   { label: "Home", to: "/" },
   { label: "About", to: "/our-story" },
-  { label: "Become a Seller", to: "/agri-services-vertezy" },
+  { label: "Become a Seller", to: "/hivictus-seller-registeration" },
   { label: "Contact", to: "/contact" },
 ];
 

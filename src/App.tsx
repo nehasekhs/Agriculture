@@ -39,7 +39,7 @@ export default function App() {
             <Route path='/refund' element={<RefundPolicy />} />
             <Route path='/Supply-of-agri-produce-and-products' element={<CropzapGrower/>}/>
             <Route path='/Large-volume-trading' element={<Cropzapmart/>}/>
-            <Route path='/agri-services-vertezy' element={<RegistrationForm/>}/>
+            <Route path='/hivictus-seller-registeration' element={<RegistrationForm/>}/>
             <Route path="/cropmartform" element={<CropmartForm/>}/>
             <Route path="/shop" element={<Shop/>}/>
             <Route path="/cart" element={<Cart/>}/>
